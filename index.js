@@ -71,7 +71,7 @@ app.patch("/posts/:id", (req, res)=> {
     res.redirect("/posts");       
 });
 
-//update- put/patch request - single post
+//update- get request - single post
 //edit.ejs
 app.get("/posts/:id/edit", (req, res)=> {
     let {id} = req.params;
